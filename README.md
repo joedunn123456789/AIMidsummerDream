@@ -39,6 +39,8 @@ Visit: http://localhost:5000/analyze
 docker build -t aimidsummerdream .
 docker run -p 5000:5000 aimidsummerdream
 
+
+
 🛣️ Future Work
 ☁️ Deploy to AWS/GCP/Azure
 🔄 Add CI/CD pipeline with GitHub Actions
@@ -55,4 +57,14 @@ DevOps awareness → containerization and portability
 Creative branding → Shakespearean theme + bold positioning
 
 Because sometimes, the impossible just needs the right developer.
+
+## 🛣️ Future Work
+
+| Feature                     | Value to Recruiter                          | Status   |
+|-----------------------------|---------------------------------------------|----------|
+| ☁️ Cloud Deployment (AWS)   | Shows cloud + DevOps deployment skills      | Planned  |
+| 🔄 CI/CD with GitHub Actions| Demonstrates automation + pipeline mastery  | Planned  |
+| 🧠 Extra AI Endpoints       | Expands AI versatility (keywords, summary)  | Planned  |
+| 📊 Unit Tests + Coverage    | Proves code quality + testing discipline    | Planned  |
+
 
