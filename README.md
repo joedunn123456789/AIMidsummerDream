@@ -1,71 +1,55 @@
-# AIMidsummerDream 🌙🤖
+# AIMidsummerDream
 
-![CI](https://github.com/joedunn123456789/AIMidsummerDream/actions/workflows/python-app.yml/badge.svg)
-
-
-> *“The person who says it can’t be done is always interrupted by the one who just did it.”*  
-> — Chief Wilson, *Daylight (1996)*
-
-AIMidsummerDream is a lightweight **AI microservice** that analyzes text sentiment.  
-It’s designed as a showcase of **AI development, API design, and DevOps skills** — proving that even the “undeliverable” can be delivered.
+AIMidsummerDream is a lightweight AI microservice built with Python and Flask.  
+It provides sentiment analysis and a simple Q&A feature.
 
 ---
 
-## 🚀 Overview
-- Built with **Python + Flask**  
-- Exposes a simple `/analyze` endpoint  
-- Performs **sentiment analysis** (positive, negative, neutral)  
-- Fully **Dockerized** for one‑command deployment  
+## Overview
+- Built with Python 3 and Flask
+- Endpoints: /analyze, /question, /answer
+- Uses TextBlob for sentiment analysis
+- Can run locally or in Docker
 
 ---
 
-## ✨ Features
-- 🔍 Text sentiment analysis using [TextBlob](https://textblob.readthedocs.io/en/dev/)  
-- 🐳 Docker support for easy portability  
-- ⚡ Minimal setup — run locally or in a container with just a few commands  
-- 📖 Clean, recruiter‑friendly documentation  
+## API Endpoints
+
+POST /analyze  
+Analyze sentiment of given text.  
+Example request body: {"text": "I love this project"}
+
+GET /question  
+Returns a random question.
+
+POST /answer  
+Analyze sentiment of your answer.  
+Example request body: {"answer": "I hate Mondays"}
 
 ---
 
-## ⚡ Quickstart
+## Quickstart
 
-### Clone the repo
-```bash
+Clone the repo:
 git clone https://github.com/joedunn123456789/AIMidsummerDream.git
 cd AIMidsummerDream
 
+Install dependencies:
 pip install -r requirements.txt
+
+Run locally:
 python app.py
 
-Visit: http://localhost:5000/analyze
+Visit:
+http://localhost:5000/analyze (POST)
+http://localhost:5000/question (GET)
+http://localhost:5000/answer (POST)
 
+Run with Docker:
 docker build -t aimidsummerdream .
-docker run -p 5000:5000 aimidsummerdream 
-```
----
-
-## 📜 License
-This project is licensed under the MIT License — free to use, modify, and share.
+docker run -p 5000:5000 aimidsummerdream
 
 ---
 
-## 🙌 Why This Repo?
-This project demonstrates:
-AI‑first thinking → practical machine learning integration
-DevOps awareness → containerization and portability
-Creative branding → Shakespearean theme + bold positioning
-
-Because sometimes, the impossible just needs the right developer.
-
----
-
-## 🛣️ Future Work
-
-| Feature                     | Value to Recruiter                          | Status   |
-|-----------------------------|---------------------------------------------|----------|
-| ☁️ Cloud Deployment (AWS)   | Shows cloud + DevOps deployment skills      | Planned  |
-| 🔄 CI/CD with GitHub Actions| Demonstrates automation + pipeline mastery  | Planned  |
-| 🧠 Extra AI Endpoints       | Expands AI versatility (keywords, summary)  | Planned  |
-| 📊 Unit Tests + Coverage    | Proves code quality + testing discipline    | Planned  |
-
-
+## License
+MIT License
