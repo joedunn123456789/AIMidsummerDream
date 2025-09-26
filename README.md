@@ -1,4 +1,4 @@
-# AIMidsummerDream 🌙🤖
+# AIMidsummerDream 🌙 🤖
 
 > *“The person who says it can’t be done is always interrupted by the one who just did it.”*  
 > — Chief Wilson, *Daylight (1996)*
