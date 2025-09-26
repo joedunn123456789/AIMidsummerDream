@@ -1,4 +1,7 @@
-# AIMidsummerDream 🌙 🤖
+# AIMidsummerDream 🌙🤖
+
+![CI](https://github.com/joedunn123456789/AIMidsummerDream/actions/workflows/python-app.yml/badge.svg)
+
 
 > *“The person who says it can’t be done is always interrupted by the one who just did it.”*  
 > — Chief Wilson, *Daylight (1996)*
