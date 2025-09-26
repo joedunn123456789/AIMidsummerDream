@@ -37,20 +37,13 @@ python app.py
 Visit: http://localhost:5000/analyze
 
 docker build -t aimidsummerdream .
-docker run -p 5000:5000 aimidsummerdream
+docker run -p 5000:5000 aimidsummerdream 
+```
 
-
-
-🛣️ Future Work
-☁️ Deploy to AWS/GCP/Azure
-🔄 Add CI/CD pipeline with GitHub Actions
-🧠 Expand endpoints (keyword extraction, summarization, AI chat)
-📊 Add unit tests and coverage reports
-
-📜 License
+## 📜 License
 This project is licensed under the MIT License — free to use, modify, and share.
 
-🙌 Why This Repo?
+## 🙌 Why This Repo?
 This project demonstrates:
 AI‑first thinking → practical machine learning integration
 DevOps awareness → containerization and portability
