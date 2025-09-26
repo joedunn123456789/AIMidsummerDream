@@ -39,9 +39,12 @@ Visit: http://localhost:5000/analyze
 docker build -t aimidsummerdream .
 docker run -p 5000:5000 aimidsummerdream 
 ```
+---
 
 ## 📜 License
 This project is licensed under the MIT License — free to use, modify, and share.
+
+---
 
 ## 🙌 Why This Repo?
 This project demonstrates:
@@ -50,6 +53,8 @@ DevOps awareness → containerization and portability
 Creative branding → Shakespearean theme + bold positioning
 
 Because sometimes, the impossible just needs the right developer.
+
+---
 
 ## 🛣️ Future Work
 
