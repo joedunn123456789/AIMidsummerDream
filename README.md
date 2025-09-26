@@ -31,3 +31,28 @@ It’s designed as a showcase of **AI development, API design, and DevOps skills
 git clone https://github.com/joedunn123456789/AIMidsummerDream.git
 cd AIMidsummerDream
 
+pip install -r requirements.txt
+python app.py
+
+Visit: http://localhost:5000/analyze
+
+docker build -t aimidsummerdream .
+docker run -p 5000:5000 aimidsummerdream
+
+🛣️ Future Work
+☁️ Deploy to AWS/GCP/Azure
+🔄 Add CI/CD pipeline with GitHub Actions
+🧠 Expand endpoints (keyword extraction, summarization, AI chat)
+📊 Add unit tests and coverage reports
+
+📜 License
+This project is licensed under the MIT License — free to use, modify, and share.
+
+🙌 Why This Repo?
+This project demonstrates:
+AI‑first thinking → practical machine learning integration
+DevOps awareness → containerization and portability
+Creative branding → Shakespearean theme + bold positioning
+
+Because sometimes, the impossible just needs the right developer.
+
